@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-neue {
+    font-family: 'neue', sans-serif;
+  }
+  .font-nb {
+    font-family: 'nb', sans-serif;
+  }
+  .font-founders {
+    font-family: 'founders', sans-serif;
+  }
+  .font-rejouice {
+    font-family: 'rejouice', sans-serif;
+  }
+}
+
+@font-face {
+  font-family: 'neue';
+  src: url('assets/fonts/NeueMontreal-Regular.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'nb';
+  src: url('assets/fonts/NBInternationalProBoo.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'founders';
+  src: url('assets/fonts/FoundersGrotesk-Semibold.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'rejouice';
+  src: url('assets/fonts/Rejouice-Headline.woff2') format('woff2');
+}
