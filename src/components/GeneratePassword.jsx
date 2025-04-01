@@ -224,7 +224,7 @@ export default function generatePassword() {
           )}
         </div>
       </div>
-      <div className="absolute text-zinc-900 top-[5rem] right-0 flex flex-col bg-red-500 py-3 px-4 shadow-xl">
+      <div className="absolute text-zinc-900 top-[2rem] right-0 flex flex-col bg-red-500 py-3 px-4 shadow-xl">
         <div className='flex gap-1 font-medium text-sm items-end'>
 
         <img className="w-6 h-6" src={dfavicon} />
